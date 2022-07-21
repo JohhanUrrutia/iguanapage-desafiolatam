@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    width: 100%;
+    color: #ffff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body h1{
+    padding: 2em;
+    text-align: center;
+}
+
+body img{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iguana-descripcion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'descripcion iguana-1';
+    width: 90%;
+    height: auto;
+    gap: 4em;
+    margin-bottom: 4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iguana-descripcion p{
+    grid-area: descripcion;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.iguana-descripcion img{
+    grid-area: iguana-1;
+    border-radius: 2em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caja-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    margin-bottom: 4em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caja-123{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'caja-1 caja-2 caja-3';
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caja-1{
+    grid-area: caja-1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.caja-2{
+    grid-area: caja-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.caja-3{
+    grid-area: caja-3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.caja-imagenes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'imagen-1 imagen-2 imagen-3';
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2em;
+}
+
+.imagen-1{
+    grid-area: imagen-1;
+    border-radius: 2em;
+}
+
+.imagen-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 2em;
+}
+
+.imagen-2{
+    grid-area: imagen-2;
+    border-radius: 2em;
+}
+
+.imagen-2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 2em;
+}
+
+.imagen-3{
+    grid-area: imagen-3;
+
+}
+
+.imagen-3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 2em;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+}
